@@ -1,0 +1,50 @@
+.tagLine {
+  background-image: url(../assets/podcast-tagline-bg.jpg);
+  background-position: center;
+  background-size: cover;
+  color: white;
+  font-size: 6rem;
+  font-family: inter;
+  font-weight: 700;
+  text-align: center;
+  padding: 10rem;
+}
+.podcastButtons{
+  margin: 5rem 20rem 2rem 20rem;
+  display: flex;
+  justify-content: space-between;
+}
+.createPodcast, .viewPodcast {
+  display: inline-block;
+  padding: 1rem 1.8rem;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 90rem;
+  background-color: black;
+  box-shadow: 0 4px 8px grey;
+}
+.createPodcast a,.viewPodcast a {
+  text-decoration: none;
+  color: white;
+}
+.PodcastContainer {
+  display: flex;
+  justify-items: center;
+  margin: 1rem;
+}
+
+.PodcastContent, .ContentImage {
+  flex: 9;
+  margin-left: 9rem;
+}
+.PodcastContent{
+  background: gainsboro;
+}
+.PodcastContent li{
+margin-bottom: 5rem;
+}
+.PodcastContent ul{
+  margin-top: 9rem;
+}

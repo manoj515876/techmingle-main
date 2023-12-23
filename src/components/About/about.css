@@ -1,0 +1,28 @@
+.container {
+  background: url(../assets/title-bg.jpg);
+  background-repeat: no-repeat;
+  background-size:cover ;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.container .title {
+  font-family: 'Inter', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+  color: black;
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.text{
+  color: white;
+  font-family: 'Inter', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+}

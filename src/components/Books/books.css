@@ -1,0 +1,41 @@
+.BooksbgImage {
+    display: flex;
+    justify-content: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 25rem;
+}
+.BooksButtons{
+    margin: 5rem 20rem 2rem 20rem;
+    display: flex;
+    justify-content: space-between;
+  }
+  .ViewBooks, .Publish {
+    display: inline-block;
+    padding: 1rem 1.8rem;
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 90rem;
+    background-color: black;
+    box-shadow: 0 4px 8px grey;
+  }
+  .ViewBooks a,.Publish a {
+    text-decoration: none;
+    color: white;
+  }
+  .BooksContainer {
+    display: flex;
+    justify-content: space-between;
+    margin: 5rem;
+}
+
+.UploadBooks, .PublishBooks {
+    width: 45%;
+background-color: azure;
+}
+.UploadBooks li, .PublishBooks li {
+    margin-bottom: 3rem;
+}
